@@ -292,6 +292,20 @@ blockquote {
 	padding: 0;
 }
 
+.column.parts-2 {
+	width: 46%;
+	text-align: center;
+
+}
+
+.column.parts-2:nth-child(2n+1) {
+	margin-left: 0 !important;
+}
+
+.column.parts-2:nth-child(1n+3) {
+	margin-top: 0px;
+	margin-right: 30px;
+}
 
 .column.parts-3 {
 	width: 28%;
@@ -748,13 +762,21 @@ blockquote {
 }
 
 .logolist.large li {
-	width: 180px;
-	height: 135px;
+	width: 240px;
+	height: 150px;
 
 }
+
+.logolist.medium li {
+	/*margin-left: 50px;*/
+	width: 185px;
+	height: 115px;
+}
+
 .logolist.small li {
-	margin-left: 50px;
-	width: 180px;
+	/*margin-left: 50px;*/
+	width: 120px;
+	height: 75px;
 }
 
 .logolist li+li {
